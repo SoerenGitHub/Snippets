@@ -1,0 +1,5 @@
+﻿  Selectionsort.cpp
+  Sortierprogramm.cpp
+  Code wird generiert...
+Sortierprogramm.obj : error LNK2019: Verweis auf nicht aufgel÷stes externes Symbol ""public: void __thiscall Selectionsort<int,class Sample>::swapT(struct std::pair<int,class Sample> &,struct std::pair<int,class Sample> &)" (?swapT@?$Selectionsort@HVSample@@@@QAEXAAU?$pair@HVSample@@@std@@0@Z)" in Funktion "_main".
+C:\Users\S÷ren#\source\repos\CC++\Sortierprogramm\Debug\Sortierprogramm.exe : fatal error LNK1120: 1 nicht aufgel÷ste Externe
