@@ -18,12 +18,12 @@
     <ClCompile Include="BinaryTreeManager.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Graph.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Graph.h">
+    <ClInclude Include="Graph.t">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.t">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

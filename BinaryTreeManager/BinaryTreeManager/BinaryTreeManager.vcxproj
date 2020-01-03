@@ -152,10 +152,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BinaryTreeManager.cpp" />
-    <ClCompile Include="Graph.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Graph.h" />
+    <ClInclude Include="Graph.t" />
+    <ClInclude Include="Node.t" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
