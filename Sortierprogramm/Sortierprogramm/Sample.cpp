@@ -1,6 +1,6 @@
 #include "Sample.h"
 
-Sample::Sample(int id, float pieces, double size) : m_id(id), m_pieces(pieces), m_size(size) {
+Sample::Sample(int id, float pieces, double size, string name) : m_id(id), m_pieces(pieces), m_size(size), m_name(name) {
 
 }
 
@@ -14,4 +14,8 @@ float Sample::getPieces() {
 
 double Sample::getSize() {
 	return m_size;
+}
+
+string Sample::getName() {
+	return m_name;
 }

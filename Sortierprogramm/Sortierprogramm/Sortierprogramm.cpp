@@ -17,14 +17,14 @@ int main()
 	vector<pair<int, Sample>*>* sortlistData = new vector<pair<int, Sample>*>();
 
 	//Hier werden Beispielsweise einige Instancen des Typ Sample erstellt
-	Sample* s1 = new Sample(3, 3.2f, 2.4);
-	Sample* s2 = new Sample(2, 3.6f, 4.1);
-	Sample* s3 = new Sample(1, 4.2f, 9.12);
-	Sample* s4 = new Sample(8, 3.2f, 1.1);
-	Sample* s5 = new Sample(7, 9.2f, 0.1);
-	Sample* s6 = new Sample(6, 13.2f, 7.5);
-	Sample* s7 = new Sample(9, 13.3f, 45.0);
-	Sample* s8 = new Sample(0, 3.21f, 13.12);
+	Sample* s1 = new Sample(3, 3.2f, 2.4, "y");
+	Sample* s2 = new Sample(2, 3.6f, 4.1, "b");
+	Sample* s3 = new Sample(1, 4.2f, 9.12, "c");
+	Sample* s4 = new Sample(8, 3.2f, 1.1, "f");
+	Sample* s5 = new Sample(7, 9.2f, 0.1, "z");
+	Sample* s6 = new Sample(6, 13.2f, 7.5, "m");
+	Sample* s7 = new Sample(9, 13.3f, 45.0, "o");
+	Sample* s8 = new Sample(0, 3.21f, 13.12, "g");
 
 	/*
 	"sx->getId()" ruft die ID der Instance auf, nach der sortiert werden soll.
