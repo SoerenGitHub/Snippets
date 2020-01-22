@@ -5,6 +5,9 @@
 
 using namespace std;
 
+/*************************************************TESTPROGRAMM*************************************************/
+//Dies ist ein Testprogramm, welche die Funktion demonstrieren soll. Deswegen gibt es keinerlei Sicherheitsabfragen bei der Eingabe.
+
 int main()
 {
 	/*
